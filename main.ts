@@ -1,5 +1,5 @@
 //  Transmitter
-basic.showString("Z-SENDER")
+basic.showString("SENDER")
 input.setAccelerometerRange(AcceleratorRange.EightG)
 radio.setGroup(1)
 function on_forever() {
