@@ -1,7 +1,7 @@
 # Transmitter
 basic.show_string("SENDER")
 input.set_accelerometer_range(AcceleratorRange.EIGHT_G)
-radio.set_group(787)
+radio.set_group(56)
 
 def on_forever():
     led.toggle(4, 4)
