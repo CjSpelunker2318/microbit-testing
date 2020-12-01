@@ -1,5 +1,5 @@
 {
-    "name": "microbit testing",
+    "name": "sender",
     "description": "",
     "dependencies": {
         "core": "*",

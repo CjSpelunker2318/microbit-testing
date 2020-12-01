@@ -1,7 +1,7 @@
 //  Transmitter
 basic.showString("SENDER")
 input.setAccelerometerRange(AcceleratorRange.EightG)
-radio.setGroup(1)
+radio.setGroup(77)
 function on_forever() {
     led.toggle(4, 4)
     radio.sendNumber(input.acceleration(Dimension.Z))
